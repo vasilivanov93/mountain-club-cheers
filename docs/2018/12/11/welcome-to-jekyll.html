@@ -5,10 +5,189 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/css/style.css" />
     <title>Mountain Club Cheers</title>
 </head>
 <body>
+
+<div class="wrapper">
+    <div class="bar">
+        <div class="shell">
+            <div class="bar__inner">
+                <div class="bar__address">
+                    <i class="fas fa-map-marker-alt"></i>
+                    град Сливен, ул. Поп Харитон № 4, пк. 8802
+                </div><!-- /.address-->
+
+                <div class="bar__socials socials">
+                    <ul>
+                        <li>
+                            <a href="/">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="/">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="/">
+                                <i class="fab fa-google-plus-g"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="/">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="/">
+                                <i class="fab fa-pinterest-p"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="/">
+                                <i class="fab fa-reddit-alien"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div><!-- /.bar__socials socials -->
+
+                <a href="tel:+359888444597" class="bar__phone">
+                    <i class="fas fa-phone-volume"></i>
+                    +359 888 444 597
+                </a><!-- /.phone -->
+            </div><!-- /.bar__inner -->
+        </div><!-- /.shell -->
+    </div><!-- /.bar -->
+
+    <header class="header">
+        <div class="shell">
+            <div class="header__inner">
+                <a href="/" class="logo">
+                    <div class="img-container">
+                        <img src="/images/logo.png" alt="logo">
+                    </div><!-- /.img-container -->
+                </a><!-- /.logo -->
+
+                <nav class="nav">
+                    <ul>
+                        <li>
+                            <a href="/">Начало</a>
+                        </li>
+
+                        <li class="current">
+                            <a href="/about-us">За нас</a>
+                        </li>
+
+                        <li>
+                            <a href="/offers">Оферти</a>
+                        </li>
+
+                        <li>
+                            <a href="/contact">Контакти</a>
+                        </li>
+                    </ul>
+                </nav><!-- /.nav -->
+            </div><!-- /.header__inner -->
+        </div><!-- /.shell -->
+    </header><!-- /.header -->
+
+    <main class="main" id="main">
+        <p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>To add new posts, simply add a file in the <code class="highlighter-rouge">_posts</code> directory that follows the convention <code class="highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+
+
+    </main><!-- /.main -->
+
+    <footer class="footer">
+        <div class="shell">
+            <div class="footer__form">
+                <div class="form form--newsletter">
+                    <form action="#" method="post">
+                        <div class="form__inner">
+                            <div class="form__head">
+                                <h2 class="form__title">Абонирайте се за нашият бюлетин за да получите нашите оферти</h2>
+                            </div><!-- /.form__head -->
+
+                            <div class="form__body">
+                                <div class="form__controls">
+                                    <input type="text" name="subscribe-name" class="field" placeholder="Име">
+                                </div><!-- /.form__controls -->
+
+                                <div class="form__controls">
+                                    <input type="email" name="subscribe-name" class="field" placeholder="Имейл адрес">
+                                </div><!-- /.form__controls -->
+                            </div><!-- /.form__body -->
+
+                            <div class="form__actions">
+                                <input type="submit" class="btn btn--subscribe" value="Абонирай се">
+                            </div><!-- /.form__actions -->
+                        </div><!-- /.form__inner -->
+                    </form>
+                </div><!-- /.form form--newsletter -->
+            </div><!-- /.footer__form -->
+
+            <div class="footer__body">
+                <div class="footer_article article">
+                    <div class="footer__image">
+                        <img src="/images/telephone.svg" alt="telephone">
+                    </div><!-- /.footer__image -->
+
+                    <div class="footer__entry">
+                        <h4>Обадете се</h4>
+
+                        <p>Мобилен: +359 888 444 597</p>
+                    </div><!-- /.footer__entry -->
+                </div><!-- /.footer_article article -->
+
+                <div class="footer_article article">
+                    <div class="footer__image">
+                        <img src="/images/cross.svg" alt="cross">
+                    </div><!-- /.footer__image -->
+
+                    <div class="footer__entry">
+                        <h4>Адрес</h4>
+
+                        <p>град Сливен, ул. Поп Харитон № 4, пк. 8802</p>
+                    </div><!-- /.footer__entry -->
+                </div><!-- /.footer_article article -->
+
+                <div class="footer_article article">
+                    <div class="footer__image">
+                        <img src="/images/envelope.svg" alt="envelope">
+                    </div><!-- /.footer__image -->
+
+                    <div class="footer__entry">
+                        <h4>Изпратетени съобщение</h4>
+
+                        <p>ta_nazdrave@gmail.com</p>
+                    </div><!-- /.footer__entry -->
+                </div><!-- /.footer_article article -->
+            </div><!-- /.footer__body -->
+
+            <p class="copyright">Copyright &copy;2018 All right reserved</p><!-- /.copyright -->
+        </div><!-- /.shell -->
+    </footer><!-- /.footer -->
+</div><!-- /.wrapper -->
 
 </body>
 </html>
