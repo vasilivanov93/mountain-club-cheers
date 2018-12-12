@@ -1,0 +1,8 @@
+.article  {
+  flex: 1;
+  text-align: center;
+}
+
+.article ~ .article {
+  margin-left: 20px;
+}

@@ -1,0 +1,33 @@
+.form--newsletter {
+  .form__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .form__title {
+      text-align: center;
+      padding-bottom: 30px;
+    }
+
+    .form__body {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      .form__controls{
+        margin: 0 10px;
+
+        .field {
+          padding: 15px;
+          background: rgba(134, 134, 134, 0.7);
+          border: none;
+          color: #FFF;
+
+          &::placeholder {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
