@@ -1,0 +1,16 @@
+.section {
+  padding: 30px 0;
+
+  .section__inner {
+    display: flex;
+  }
+
+  .section__head {
+    text-align: center;
+  }
+
+  .section__body {
+    display: flex;
+    justify-content: space-between;
+  }
+}
