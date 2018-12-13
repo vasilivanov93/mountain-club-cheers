@@ -6,3 +6,15 @@
 .article ~ .article {
   margin-left: 20px;
 }
+
+.article--offer {
+  padding: 55px;
+  text-align: center;
+  background: rgba(#285943, 0.7);
+  color: #fff;
+
+  .article__entry {
+    padding: 15px 0;
+    height: 420px;
+  }
+}
