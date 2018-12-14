@@ -20,3 +20,12 @@
   -webkit-background-size: cover;
   background-size: cover;
 }
+
+.section--about {
+  background: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.6)), url("../images/bg_about.jpg") no-repeat center center fixed;
+  color: #fff;
+
+  .section__body {
+    text-align: justify;
+  }
+}

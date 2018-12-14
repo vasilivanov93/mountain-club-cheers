@@ -32,3 +32,19 @@
     border-radius: 50%;
   }
 }
+
+.article--activity {
+  .milestone {
+    font-size: 50px;
+    color: #000;
+    font-weight: bold;
+  }
+}
+
+.article--trainer {
+  .article__image {
+    max-width: 150px;
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+}
