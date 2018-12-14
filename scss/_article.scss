@@ -48,3 +48,31 @@
     border-radius: 50%;
   }
 }
+
+.article--event {
+  .article__title {
+    padding: 15px 0;
+  }
+
+  .article__entry {
+    text-align: justify;
+
+    .line {
+      position: relative;
+    }
+
+    .line:after {
+      content: '';
+      position: absolute;
+      margin-bottom: 10px;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      border-bottom: 3px solid #285943;
+    }
+  }
+
+  .article__actions {
+    padding-top: 15px;
+  }
+}
