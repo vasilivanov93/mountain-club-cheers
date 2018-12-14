@@ -3,7 +3,6 @@
   height: 750px;
   background-repeat: no-repeat;
   background-position: center center;
-  -webkit-background-size: cover;
   background-size: cover;
   text-align: center;
   color: #fff;
@@ -34,6 +33,7 @@
 
 .intro--page {
   height: 280px;
+
   .intro__title {
     top: 50%;
     transform: translate(-50%, -50%);
@@ -46,4 +46,8 @@
 
 .intro--about   {
   background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("../images/intro-about.jpg");
+}
+
+.intro--offers  {
+  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("../images/intro-offers.jpg");
 }
