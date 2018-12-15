@@ -1,0 +1,26 @@
+.bx__home {
+  text-align: center;
+
+  .bx__image {
+    max-width: 150px;
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+
+  .bx__image:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f10d";
+  }
+
+  .bx__author {
+    font-style: italic;
+    font-weight: 900;
+    padding: 10px 0;
+  }
+
+  .bx__date {
+    font-style: italic;
+    padding: 10px 0;
+  }
+}
