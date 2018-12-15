@@ -31,3 +31,63 @@
     }
   }
 }
+
+.form--contact {
+  flex: 1;
+  padding-left: 5px;
+  .form__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .form__body {
+      flex: 1;
+
+      .form__controls {
+        .form__group {
+          display: flex;
+          margin-right: -20px;
+
+          .form__row {
+            width: 100%;
+            margin-right: 20px;
+          }
+        }
+
+        .field {
+          width: 100%;
+          padding: 20px;
+          background: #8CD790;
+          color: #285943;
+          border: none;
+          margin-bottom: 15px;
+          border-bottom: 2px solid transparent;
+
+          &:active {
+            border-bottom: 2px solid #285943;
+          }
+
+          &:hover {
+            border-bottom: 2px solid #285943;
+          }
+
+          &:focus {
+            border-bottom: 2px solid #285943;
+          }
+
+          &::placeholder {
+            color: #285943;
+          }
+        }
+
+        textarea.field {
+          resize: none;
+        }
+      }
+    }
+
+    .form__actions {
+      flex: 1 0 100%;
+    }
+  }
+}

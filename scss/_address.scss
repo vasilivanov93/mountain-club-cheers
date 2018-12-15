@@ -1,0 +1,21 @@
+.address {
+  padding-right: 5px;
+  flex: 1;
+
+  .address__title {
+    padding-bottom: 10px;
+    font-size: 18px;
+    color: #285943;
+    text-transform: uppercase;
+  }
+
+  .items {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  .fas {
+    color: #285943;
+    padding-right: 10px;
+  }
+}
