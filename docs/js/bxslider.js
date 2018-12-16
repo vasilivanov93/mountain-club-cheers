@@ -1,5 +1,6 @@
 $(document).ready(function () {
     $('.bxSlider').bxSlider({
-        auto: true
+        auto: true,
+        speed: 2500
     });
 });

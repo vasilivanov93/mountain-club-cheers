@@ -2,8 +2,8 @@
   flex: 1;
   text-align: center;
 
-  .article__title {
-    padding-top: 0.5em;
+  .article__image {
+    padding-bottom: 0.5em;
   }
 }
 
@@ -12,14 +12,10 @@
 }
 
 .article--offer {
-  padding: 55px;
+  padding: 40px;
   text-align: center;
   background: rgba(#285943, 0.7);
   color: $white;
-
-  .article__entry {
-    padding: 15px 0;
-  }
 }
 
 .article--service {

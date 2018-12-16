@@ -1,43 +1,11 @@
-@include mq(desktop-wide, max) {
-  .shell {
-    max-width: 1190px;
-    margin: 0 auto;
-  }
+.shell {
+  max-width: 1190px;
+  margin: 0 auto;
+  padding: 0 10px;
 }
 
 @include mq(desktop, max) {
   .shell {
-    //max-width: 1190px;
-  }
-}
-
-@include mq(tablet-wide, max) {
-  .shell {
     padding: 0 15px;
   }
 }
-
-//@include mq(tablet, max) {
-//  .shell {
-//    max-width: 500px;
-//  }
-//}
-//
-//@include mq(tablet-small, max) {
-//  .shell {
-//    max-width: 400px;
-//  }
-//}
-//
-//@include mq(phone-wide, max) {
-//  .shell {
-//    max-width: 250px;
-//  }
-//}
-
-//@include mq(phone, max) {
-//  .shell {
-//    max-width: 150px;
-//    margin: 0 auto;
-//  }
-//}
