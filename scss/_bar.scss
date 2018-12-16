@@ -25,3 +25,9 @@
     }
   }
 }
+
+@include mq(dekstop, max) {
+  .bar {
+    display: none;
+  }
+}

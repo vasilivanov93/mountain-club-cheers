@@ -55,3 +55,9 @@
 .intro--contact {
   background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("../images/intro-contact.jpg");
 }
+
+@include mq(dekstop, max) {
+  .intro--home {
+    display: none;
+  }
+}

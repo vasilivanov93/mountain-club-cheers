@@ -43,6 +43,9 @@
   }
 
   @include mq(dekstop, max) {
+    .header__inner {
+      padding: 15px 0;
+    }
     .nav {
       position: absolute;
       top: 0;

@@ -24,3 +24,9 @@
     border-top: 1px double;
   }
 }
+
+@include mq(dekstop, max) {
+  .footer__body {
+    flex-wrap: wrap;
+  }
+}
