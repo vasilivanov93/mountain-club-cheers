@@ -3,8 +3,8 @@
   transition: background .5s ease, color .5s ease;
 
   &:hover {
-    color: #fff;
-    background-color: #00FF01;
+    color: $white;
+    background-color: $electric-green;
   }
 }
 
@@ -15,7 +15,7 @@
   background: rgba(134, 134, 134, 0.7);
   text-transform: uppercase;
   border: none;
-  color: #fff;
+  color: $white;
 }
 
 .btn--read-more {
@@ -28,13 +28,13 @@
   padding: 10px;
   border-radius: 10px;
   border: none;
-  background: #285943;
+  background: $dark-green;
 }
 
 .btn--send {
   padding: 10px 40px;
-  background: #8CD790;
-  color: #285943;
+  background: $light-green;
+  color: $dark-green;
   font-size: 1.2rem;
   text-transform: uppercase;
   border-radius: 20px;

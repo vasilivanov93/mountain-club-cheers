@@ -11,7 +11,7 @@
   }
 
   .nav {
-    color: #fff;
+    color: $white;
     font-weight: 600;
 
     ul {
@@ -31,13 +31,13 @@
 
           &:hover {
             text-decoration: none;
-            color: #285943;
+            color: $dark-green;
           }
         }
       }
 
       .current {
-        color: #285943;
+        color: $dark-green;
       }
     }
   }
@@ -70,18 +70,18 @@
             background-color: rgba(88, 88, 88, 0.93);
 
             &:hover {
-              color: #A3DFA6;
+              color: $light-green;
             }
           }
         }
 
         .current {
-          color: #A3DFA6;
+          color: $light-green;
         }
       }
 
       li ~ li {
-        border-top: 1px solid white;
+        border-top: 1px solid $white;
       }
     }
 

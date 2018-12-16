@@ -23,7 +23,7 @@
 
 .section--about {
   background: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.6)), url("../images/bg_about.jpg") no-repeat center center fixed;
-  color: #fff;
+  color: $white;
 
   .section__body {
     text-align: justify;
@@ -32,8 +32,8 @@
 
 .section--map {
   padding: 0;
-  border-top: 2px dashed #285943;
-  border-bottom: 2px dashed #285943;
+  border-top: 2px dashed $dark-green;
+  border-bottom: 2px dashed $dark-green;
 }
 
 @include mq(dekstop, max) {

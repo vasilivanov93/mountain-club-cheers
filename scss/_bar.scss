@@ -1,6 +1,6 @@
 .bar {
   padding: 2px 0;
-  background: #285943;
+  background: $dark-green;
 
   .bar__inner {
     display: flex;
@@ -9,7 +9,7 @@
   }
 
   .bar__address {
-    color: #D7FFF1;
+    color: $light-green;
   }
 
   .bar__phone {

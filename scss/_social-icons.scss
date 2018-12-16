@@ -34,31 +34,31 @@
 
       a:hover {
         .fab {
-          color: #FFF;
+          color: $white;
         }
 
         .fa-facebook-f {
-          background: #3b5998;
+          background: $color-facebook;
         }
 
         .fa-instagram {
-          background: #AE32AA;
+          background: $color-instagram;
         }
 
         .fa-google-plus-g {
-          background: #db4437;
+          background: $color--google-plus;
         }
 
         .fa-twitter {
-          background: #007bb5;
+          background: $color-twitter;
         }
 
         .fa-pinterest-p {
-          background: #BD081B;
+          background: $color-pinterest;
         }
 
         .fa-reddit-alien {
-          background: #FF4500;
+          background: $color-reddit;
         }
       }
     }

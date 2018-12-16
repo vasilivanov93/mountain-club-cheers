@@ -5,7 +5,7 @@
   .address__title {
     padding-bottom: 10px;
     font-size: 18px;
-    color: #285943;
+    color: $dark-green;
     text-transform: uppercase;
   }
 
@@ -15,7 +15,7 @@
   }
 
   .fas {
-    color: #285943;
+    color: $dark-green;
     padding-right: 10px;
   }
 }
