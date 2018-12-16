@@ -18,7 +18,7 @@
       position: absolute;
       top: 0;
       width: 100%;
-      font-size: 22px;
+      font-size: 1.2em;
       text-transform: uppercase;
       color: $white;
       text-align: center;
@@ -34,5 +34,11 @@
         padding-top: 50%;
       }
     }
+  }
+}
+
+@include mq(phone-wide, max) {
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   }
 }

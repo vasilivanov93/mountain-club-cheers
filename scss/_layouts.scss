@@ -47,9 +47,9 @@
   }
 }
 
-@include mq(phone, max) {
-  .shell {
-    max-width: 150px;
-    margin: 0 auto;
-  }
-}
+//@include mq(phone, max) {
+//  .shell {
+//    max-width: 150px;
+//    margin: 0 auto;
+//  }
+//}
