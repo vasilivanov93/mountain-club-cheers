@@ -41,4 +41,63 @@
       }
     }
   }
+
+  @include mq(dekstop, max) {
+    .nav {
+      position: absolute;
+      top: 0;
+      overflow: hidden;
+      visibility: hidden;
+      opacity: 0;
+      transform: translateY(-100px);
+      transition: transform 0.6s ease, opacity 0.3s ease;
+
+      ul {
+        display: block;
+
+        li {
+          padding: 0;
+
+          a {
+            display: inline-block;
+            width: 100%;
+            font-size: 20px;
+            padding: 5px 0;
+            text-align: center;
+            background-color: rgba(88, 88, 88, 0.93);
+
+            &:hover {
+              color: #A3DFA6;
+            }
+          }
+        }
+
+        .current {
+          color: #A3DFA6;
+        }
+      }
+
+      li ~ li {
+        border-top: 1px solid white;
+      }
+    }
+
+    .nav.open {
+      width: 100%;
+      display: block;
+      top: 100%;
+      left: 0;
+      right: 0;
+      visibility: visible;
+      opacity: 1;
+      transform: translateY(0);
+      z-index: 100;
+    }
+  }
+
+  @include mq(phone-wide, max) {
+    .logo {
+      max-width: 80%;
+    }
+  }
 }
