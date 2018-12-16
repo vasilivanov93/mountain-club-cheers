@@ -91,3 +91,32 @@
     }
   }
 }
+
+@include mq(tablet, max) {
+  .form--newsletter {
+    .form__inner {
+      .form__body {
+        flex-wrap: wrap;
+
+        .form__controls {
+          flex: 1 0 100%;
+          margin: 10px 0;
+
+          .field {
+            width: 100%;
+          }
+        }
+
+        .form__actions {
+          flex: 1 0 100%;
+        }
+      }
+    }
+  }
+}
+
+@include mq(dekstop, max) {
+  .form--contact {
+    padding-left: 0;
+  }
+}

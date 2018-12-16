@@ -35,3 +35,12 @@
   border-top: 2px dashed #285943;
   border-bottom: 2px dashed #285943;
 }
+
+@include mq(dekstop, max) {
+  .section__inner {
+    flex-wrap: wrap;
+  }
+  .section__body {
+    flex-wrap: wrap;
+  }
+}
